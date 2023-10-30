@@ -14,6 +14,7 @@ export const NAV_LINKS = [
     '/person-3.png',
     '/person-4.png',
   ];
+  // Finish the Software Section
   
   // FEATURES SECTION
   export const FEATURES = [

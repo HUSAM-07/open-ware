@@ -159,17 +159,15 @@ export default function PanelRight({ extraDrawerContent }) {
                         color: "text.primary",
                       }}
                     >
-                      Brian Ruiz
+                      Open Ware
                     </Typography>
                     <Typography variant="body2" sx={{ color: "text.disabled" }}>
-                      Software Engineer
+                      Software
                     </Typography>
                   </div>
                 </Box>
                 <Typography variant="body2" sx={{  color: "text.secondary" }}>
-                  I'm a full-stack Software Engineer based out of Houston, TX. 
-                  Here you'll find my personal blog posts and case studies 
-                  on all things tech.
+                  We are an open source focused resource sharing platform, this platform is opensource as well
                 </Typography>
               </Box>
             )}

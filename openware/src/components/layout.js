@@ -243,7 +243,7 @@ const Layout = ({
                               lineHeight: "20px",
                             }}
                           >
-                            More stories from Brian
+                            More stories from OpenWare
                           </Typography>
                           <Button
                             variant="outlined"
@@ -262,7 +262,7 @@ const Layout = ({
                           variant="body2"
                           sx={{ maxWidth: "330px", color: "text.disabled" }}
                         >
-                          Hey, enjoying the content? Subscribe to my newsletter
+                          Hey, enjoying the content? Subscribe to the newsletter
                           to stay up to date on new posts and more. P.S. No
                           spam, unsubscribe any time.
                         </Typography>
@@ -287,7 +287,7 @@ const Layout = ({
                             variant="body2"
                             sx={{ display: "flex", alignItems: "center" }}
                           >
-                            Gatsby Medium Blog
+                            OpenWare Blog
                             <StarBorderIcon
                               alt="Github stars"
                               sx={{ ml: 0.5, fontSize: "16px" }}
@@ -310,7 +310,7 @@ const Layout = ({
                               },
                             }}
                           >
-                            {" "}Built by Brian Ruiz
+                            {" "}Built by Mohammed Husamuddin
                           </Box>
                         </Typography>
                       </Box>

@@ -246,7 +246,7 @@ const PostDetailTemplate = ({ data, location }) => {
             >
               <Box sx={{ display: "flex", gap: 2, alignItems: "center" }}>
                 <Avatar
-                  alt="Brian Ruiz"
+                  alt="OpenWare"
                   src="../avatar.png"
                   sx={{
                     width: 48,

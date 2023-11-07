@@ -78,7 +78,7 @@ const NotFoundPage = ({ data, location }) => {
         >
           <HiLink  fontSize={20}/>
         </IconButton>
-        {"Brian's Links"}
+        {"OpenWares's Links"}
       </Box>
       }
     >

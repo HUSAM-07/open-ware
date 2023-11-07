@@ -158,7 +158,7 @@ const Layout = ({
                     >
                       {isRootPath && (
                         <Avatar
-                          alt="Brian Ruiz"
+                          alt="OpenWare"
                           src="https://www.b-r.io/avatar.png"
                           sx={{
                             width: 48,

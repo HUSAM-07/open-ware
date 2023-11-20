@@ -143,4 +143,5 @@ const PostItem = ({ data }) => {
   )
 }
 
+
 export default PostItem

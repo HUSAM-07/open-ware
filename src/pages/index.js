@@ -52,8 +52,8 @@ function a11yProps(index) {
   }
 }
 
-const Index = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata?.title || `Title`
+const IndexPage = ({ data, location }) => {
+  const siteTitle = data.site.siteMetadata?.title || `OpenWare`
   const posts = data.allMdx.nodes
 
   const [value, setValue] = React.useState(0)
@@ -206,7 +206,7 @@ const Index = ({ data, location }) => {
   )
 }
 
-export default Index
+export default IndexPage
 
 export const pageQuery = graphql`
   query {

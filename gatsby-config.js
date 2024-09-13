@@ -2,12 +2,12 @@ require("dotenv").config()
 
 module.exports = {
   siteMetadata: {
-    title: `Brian Ruiz`,
+    title: `OpenWare`,
     author: {
-      name: `Brian Ruiz`,
-      summary: `Brian Ruiz is a Software Engineer based out of Houston, TX.`,
+      name: `OpenWare`,
+      summary: `OpenWare is a ...`, // Update this description as needed
     },
-    description: `Brian Ruiz is a Software Engineer based out of Houston, TX.`,
+    description: `OpenWare is a ...`, // Update this description as needed
     siteUrl: `https://b-r.io`,
     social: {
       linkedin: `brianruizy`,
@@ -187,8 +187,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `BR Blog`,
-        short_name: `b-r.io`,
+        name: `OpenWare`,
+        short_name: `OpenWare`,
         start_url: `/`,
         background_color: `#121212`,
         theme_color: `???`,
@@ -214,13 +214,18 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
+    // Comment out the Algolia plugin
+    /*
     {
       resolve: `gatsby-plugin-algolia`,
       options: {
         appId: process.env.GATSBY_ALGOLIA_APP_ID,
         apiKey: process.env.ALGOLIA_ADMIN_KEY,
-        queries: require("./src/utils/algolia-queries")
+        indexName: process.env.ALGOLIA_INDEX_NAME,
+        queries: require("./src/utils/algolia-queries"),
+        enablePartialUpdates: true,
       },
     },
+    */
   ],
 }

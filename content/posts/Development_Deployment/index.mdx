@@ -1,0 +1,108 @@
+# Development & Deployment for a Tech Noob
+
+Created by: Mohammed Husamuddin
+Last edited: September 13, 2024 4:56 PM
+
+All of the above information was possible due to a noob or a dumb person like
+
+Asking the right questions brackets me and my dearest friend Faraz tending to these questions and answering them check out his website brackets check out his GitHub profile brackets 
+
+This this blog/documentation is essentially my learnings and understandings from the past two years of me learning web development and deploying websites or tools for the internet and for the people I stumbled upon these questions and reached out to my friend as mentioned above Faraz and was able to get these answers and I have decided to document all of my learnings as precisely as they were happening throughout
+
+The following are the questions & answers during the conversation
+
+<aside>
+
+I was displaying a project I am working on to get feedback:
+
+https://access-x.vercel.app/
+
+Feedback from Friend: but the fact that it is a one page application bothers me, the back browser button doesn't function on this, that's bad practice
+
+Me: I understand, Is there any video/doc which can explain this...do send
+
+Friend: You used React?
+
+Me: I used NextJs
+
+Friend: Ah then very easy, next js was built to solve react's default one page style
+
+Just need to split up your components into different folders and it'll have different routes
+
+Then you can just hyperlink between them
+https://nextjs.org/docs/app/building-your-application/routing/defining-routes
+
+Currently all of them are in a single folder, under the components folder
+https://github.com/HUSAM-07/AccessX
+Me:
+Also I want to start learning building applications using a stronger backend, like Djano + React/NextJs ( I'm assuming all modern tools with good scale use this )
+
+Friend: 
+
+Ah so what you have rn is a bit of a structure issue. It works and everything but it becomes a one page app which isn't ideal
+
+It also doesn't take advantage of "use server" which is one of next js's best advantages
+
+So instead of just one page.ts and all routing handled in maincontent.tsx, read that documentation link
+
+Look into putting navbar in layout, dashboard, attendance each as separate pages, separate page.tsx in different folder (next js routing is by folder names)
+
+Me: This is a very good piece of info, I could've done much better If I was aware of this previously
+
+did know about this, (next js routing is by folder names)...but never focused on using the features...currently still learning react/nextjs
+
+Friend: Yep that's the thing most of these "advanced" libraries never stop you from doing anything, good in one way, but then many times you'd end up missing their important features
+
+Me: Mhm...I've understood one thing over these years...most of the languages/frameworks can build almost anything...it's just that some of them are a bit easier than the others or easier to scale, correct?
+
+Friend: 
+
+Kind of yes, see people say Django>flask
+
+But technically you can do the exact same things, however it will take much more time to make those things happen in flask- ie: django is more production ready than flask with a lot of built in stuff
+
+Then again for a small project I would choose flask cause I don't need to deal with all that headache
+
+And when it comes to frontend, specially those deployed on vercel, netlify, GitHub pages - so called "serverless" the tech you used to make it doesn't matter for scalability it's all on the server
+
+Me: Also, check this out: https://www.youtube.com/watch?v=dNgWdkEfDL8
+
+Friend: Pretty cool, I think automates/simplifies a bunch of stuff that was manual deployment before
+
+Me: Yep, considering there are very rare python supported frameworks for production ready env
+
+Me: 
+
+How do you determine whether something is prod ready?
+
+I'm assuming there is stuff like how much it can handle etc?
+
+Like Streamlit is not good for proper applications...maybe for more than 100 people using it or something
+
+Friend: 
+
+90% of the time the bottleneck on speed or number of requests is only on the server hosting it, not on the framework, unless someone messed up the code then it's a code issue can't blame the framework
+
+Streamlit I think improving but they don't have some important production safety features plus I don't think it can run multiple requests parallely which is like minimum requirement for a decent webserver (django, flask do it on deployment)
+
+Me: Also, these big companies do not host their websites on vercel etc ? 
+
+Friend: Vercel paid plan gives you better servers so they can
+But most would do it in house or in some expensive cloud where they might vary the resources they use depending on the traffic they get
+
+Me: Ohk...so all these big companies use AWS/GCP/Azure to host their sites/softwates
+
+Friend: 
+
+Pretty much, a big advantage with cloud, apart from choosing the scalability and resources you want
+
+Is the locations, a server closer to your customers means faster load times. A global company would like to spread their workload to different servers across the world and that could be very expensive/impossible for medium size companies so cloud can do that for a nominal fee
+
+When your business is tech, at that size I think they should be doing it in house or AWS/similar at the most, likely a hybrid of both
+
+Me: Makes much more sense now
+
+</aside>
+
+Thanks to my dearest friend, 
+Firas

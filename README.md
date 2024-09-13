@@ -1,5 +1,5 @@
 <h1 align="center">
-  Gatsby.js Medium Blog
+  Openware
 </h1>
 
 <p align="center">
